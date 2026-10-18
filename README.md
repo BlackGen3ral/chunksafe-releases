@@ -8,12 +8,12 @@ Baixe o instalador Windows x64 em [Releases](https://github.com/BlackGen3ral/chu
 
 O canal público é `https://github.com/BlackGen3ral/chunksafe-releases/releases/latest/download/`. O app verifica a assinatura do catálogo e o SHA-512 do instalador.
 
-## Novidades da versão 1.5
+## Novidades da versão 1.6
 
-- Instalação cerca de **49 MB menor**: o pacote inclui apenas os idiomas português e inglês do Electron.
-- Início com resumo dos mundos protegidos, última cópia, próximo agendamento e situação do Google Drive.
-- Guia de três passos para encontrar o mundo, fechar o Minecraft e criar o primeiro backup.
-- Prévia de restauração com mundo, data, tamanho da cópia e explicação de como o estado atual é preservado.
+- Início com cartões mais claros, animações discretas e avisos para backups ausentes, antigos ou com falha.
+- Opção **O que guardar?** em cada mundo: escolha incluir configurações, mods ou pacotes de recursos. O padrão continua salvando apenas o mundo.
+- Histórico com busca e filtros por mundo, tipo e local.
+- Na restauração, pastas extras só são incluídas após escolha explícita. As pastas atuais ficam preservadas ao lado das originais.
 
 O histórico completo das versões está no cartão **Novidades desta versão** do aplicativo, inclusive sem internet.
 
