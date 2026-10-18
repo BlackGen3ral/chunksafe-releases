@@ -1,26 +1,28 @@
 # ChunkSafe — versões para Windows
 
-Backups automáticos e restauração de mundos Minecraft Java do CurseForge, launcher oficial e pastas personalizadas.
+Backups automáticos e restauração segura de mundos Minecraft Java do CurseForge, launcher oficial e pastas personalizadas.
 
-## Instalação e atualizações
+## Instalação e atualização
 
-Baixe o instalador Windows x64 em [Releases](https://github.com/BlackGen3ral/chunksafe-releases/releases/latest). Instale por cima, sem desinstalar. Nas versões 1.1.1 ou posteriores, use **Atualizações → Verificar atualizações** no app.
+Baixe o instalador Windows x64 em [Releases](https://github.com/BlackGen3ral/chunksafe-releases/releases/latest). Se já usa a versão 1.1.1 ou posterior, abra **Atualizações → Verificar atualizações** no aplicativo. A atualização é instalada após sua confirmação e espera operações em andamento terminarem.
 
-O canal já está configurado: `https://github.com/BlackGen3ral/chunksafe-releases/releases/latest/download/`. O app confere a assinatura do catálogo e o SHA-512 do instalador. A instalação depende da sua confirmação e aguarda backups e restaurações terminarem.
+O canal público é `https://github.com/BlackGen3ral/chunksafe-releases/releases/latest/download/`. O app verifica a assinatura do catálogo e o SHA-512 do instalador.
 
-## Novidades da versão 1.4
+## Novidades da versão 1.5
 
-- Clique em **Novidades desta versão** para abrir o histórico completo das mudanças, também disponível sem internet.
-- Em **Google Drive**, use **Conectar com Google**, escolha a conta no navegador e autorize. O instalador 1.4 inclui a configuração Desktop do ChunkSafe; não é necessário preencher campos técnicos.
-- Quatro temas e configurações existentes preservados.
+- Instalação cerca de **49 MB menor**: o pacote inclui apenas os idiomas português e inglês do Electron.
+- Início com resumo dos mundos protegidos, última cópia, próximo agendamento e situação do Google Drive.
+- Guia de três passos para encontrar o mundo, fechar o Minecraft e criar o primeiro backup.
+- Prévia de restauração com mundo, data, tamanho da cópia e explicação de como o estado atual é preservado.
 
-O consentimento Google está em produção. Isso não equivale à verificação de marca pelo Google. Clientes OAuth pessoais antigos continuam disponíveis nas opções avançadas.
+O histórico completo das versões está no cartão **Novidades desta versão** do aplicativo, inclusive sem internet.
 
-## Dados e requisitos
+## Backup e Google Drive
 
-- O computador e o processo do ChunkSafe precisam estar ativos, com Minecraft e outros processos Java fechados para copiar ou restaurar.
-- Google Drive é opcional. Backups locais funcionam sem conta e sem internet.
-- Os ZIPs não são cifrados. Proteja seu disco e sua conta Drive.
-- Os EXEs ainda não possuem certificado Authenticode comercial; a assinatura do catálogo é independente do SmartScreen. Não desative o antivírus.
+Os backups locais funcionam sem conta e sem internet. Para uma cópia extra, abra **Google Drive → Conectar com Google** e escolha sua conta no navegador. O acesso usa somente arquivos criados pelo ChunkSafe (escopo `drive.file`). O consentimento Google está em produção, separado da verificação de marca.
 
-Consulte a [Política de Privacidade](PRIVACY.md). O repositório não contém mundos, tokens, senhas de usuários nem a chave privada de atualização. Não afiliado à Mojang, Microsoft, CurseForge ou Google.
+Salve e feche o Minecraft antes de copiar ou restaurar. Na restauração, o ChunkSafe verifica a cópia, salva o estado atual e preserva a pasta anterior. Os ZIPs dos mundos não são cifrados.
+
+Leia a [Política de Privacidade](PRIVACY.md). O repositório de lançamentos não contém mundos, tokens de usuários nem a chave privada das atualizações. Os EXEs ainda não possuem certificado comercial Authenticode; a assinatura do catálogo é independente do SmartScreen. Não desative o antivírus.
+
+Não afiliado à Mojang, Microsoft, CurseForge ou Google.
