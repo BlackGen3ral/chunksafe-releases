@@ -2,23 +2,25 @@
 
 Backups automáticos e restauração de mundos Minecraft Java do CurseForge, launcher oficial e pastas personalizadas.
 
-## Instalação
+## Instalação e atualizações
 
-Baixe o instalador Windows x64 em [Releases](https://github.com/BlackGen3ral/chunksafe-releases/releases/latest). Instale por cima da versão anterior, sem desinstalar.
+Baixe o instalador Windows x64 em [Releases](https://github.com/BlackGen3ral/chunksafe-releases/releases/latest). Instale por cima, sem desinstalar. Nas versões 1.1.1 ou posteriores, use **Atualizações → Verificar atualizações** no app.
 
-## Atualizações
+O canal já está configurado: `https://github.com/BlackGen3ral/chunksafe-releases/releases/latest/download/`. O app confere a assinatura do catálogo e o SHA-512 do instalador. A instalação depende da sua confirmação e aguarda backups e restaurações terminarem.
 
-Canal do aplicativo: `https://github.com/BlackGen3ral/chunksafe-releases/releases/latest/download/`
+## Novidades da versão 1.4
 
-As versões 1.1.1 ou posteriores já recebem esse endereço. Na versão 1.1.0, configure-o na página Atualizações. O app confere a assinatura do catálogo e o SHA-512 do instalador; a instalação depende de confirmação e aguarda backups/restaurações terminarem.
+- Clique em **Novidades desta versão** para abrir o histórico completo das mudanças, também disponível sem internet.
+- Em **Google Drive**, use **Conectar com Google**, escolha a conta no navegador e autorize. O instalador 1.4 inclui a configuração Desktop do ChunkSafe; não é necessário preencher campos técnicos.
+- Quatro temas e configurações existentes preservados.
 
-## Requisitos e cuidados
+O consentimento Google está em produção. Isso não equivale à verificação de marca pelo Google. Clientes OAuth pessoais antigos continuam disponíveis nas opções avançadas.
 
-- Computador ligado, processo do ChunkSafe ativo e Minecraft fechado para realizar backups. Outros processos Java também adiam a cópia por segurança.
-- Google Drive é opcional e exige configurar um cliente OAuth Desktop próprio. Credenciais Google não são incluídas no instalador.
-- Os ZIPs de mundos não são cifrados. Proteja o disco e a conta Drive.
-- Os EXEs ainda não têm certificado Authenticode comercial. A assinatura do catálogo é independente da reputação SmartScreen. Não desative o antivírus.
+## Dados e requisitos
 
-Este repositório distribui o programa e seu catálogo de versões. Não contém mundos, tokens, senhas ou a chave privada de atualização.
+- O computador e o processo do ChunkSafe precisam estar ativos, com Minecraft e outros processos Java fechados para copiar ou restaurar.
+- Google Drive é opcional. Backups locais funcionam sem conta e sem internet.
+- Os ZIPs não são cifrados. Proteja seu disco e sua conta Drive.
+- Os EXEs ainda não possuem certificado Authenticode comercial; a assinatura do catálogo é independente do SmartScreen. Não desative o antivírus.
 
-Não afiliado à Mojang, Microsoft, CurseForge ou Google.
+Consulte a [Política de Privacidade](PRIVACY.md). O repositório não contém mundos, tokens, senhas de usuários nem a chave privada de atualização. Não afiliado à Mojang, Microsoft, CurseForge ou Google.
