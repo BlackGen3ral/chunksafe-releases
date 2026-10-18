@@ -1,16 +1,16 @@
-# Privacidade do ChunkSafe
+# Privacidade do SaveBlock
 
 Atualizado em 18 de outubro de 2026.
 
-O ChunkSafe é um aplicativo Windows para backups de mundos Minecraft Java. O responsável pela distribuição é a conta BlackGen3ral deste repositório.
+Anteriormente chamado ChunkSafe, o SaveBlock é um aplicativo Windows para backups de mundos Minecraft Java. O responsável pela distribuição é a conta BlackGen3ral deste repositório.
 
 ## Dados no computador
 
-O app lê os mundos que você adiciona e guarda arquivos de backup, caminhos, preferências e registros de atividade no seu computador. Os ZIPs não são cifrados pelo ChunkSafe. Tokens de acesso ao Google são protegidos para sua conta Windows com a criptografia do sistema. A senha Google não é solicitada pelo app.
+O app lê os mundos que você adiciona e, se você escolher, as pastas de configurações, mods e pacotes de recursos da instalação. Ele guarda arquivos de backup, caminhos, preferências e registros de atividade no seu computador. Os ZIPs não são cifrados pelo SaveBlock. Tokens de acesso ao Google são protegidos para sua conta Windows com a criptografia do sistema. A senha Google não é solicitada pelo app.
 
 ## Google Drive opcional
 
-Ao conectar sua conta e autorizar, o aplicativo usa a permissão drive.file para criar e consultar seus próprios arquivos no Drive. Os backups e seus metadados são enviados diretamente do computador ao Google, na pasta ChunkSafe Backups. O envio automático é uma escolha nas configurações. O responsável pelo ChunkSafe não recebe seus mundos nem seus tokens em um servidor próprio.
+Ao conectar sua conta e autorizar, o aplicativo usa a permissão drive.file para criar e consultar seus próprios arquivos no Drive. Os backups e seus metadados são enviados diretamente do computador ao Google, na pasta SaveBlock, com uma subpasta por mundo. Na sincronização, cópias antigas criadas pelo app também podem ser movidas para essa organização, preservando o conteúdo. O envio automático é uma escolha nas configurações. O responsável pelo SaveBlock não recebe seus mundos nem seus tokens em um servidor próprio.
 
 Desconectar remove os tokens locais e tenta revogar a autorização. As cópias no Drive permanecem até você excluí-las pelo Google Drive. Você também pode remover o acesso nas permissões da sua conta Google.
 
